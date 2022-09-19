@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Kian Gopez</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo gold">Portfolio</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+    <main>
+      <section class="hero wrapper">
+        <div class="heading">
+          <h1>Hi! I'm <span>&lt;Kian/&gt;</span>.</h1>
+          <h4>
+            A web developer with a passion for creating interactive and cool
+            websites.
+          </h4>
+        </div>
+        <img src="./images/hero photo.png" alt="" />
+
+        <div class="arrows-body">
+          <div class="arrow"></div>
+          <div class="arrow"></div>
+          <div class="arrow"></div>
+        </div>
+      </section>
+
+      <section class="about " id="about">
+        <div class="section-heading">
+          <h3>About Me</h3>
+        </div>
+        <div class="about-content">
+          <p>
+            I'm currently a student at AMA University studying Bachelor of
+            Science in Information Technology. <br></br> Besides coding, I enjoy
+            playing video games and watching anime. I'm also starting to
+            appreciate podcasts so feel free to hit me up with your favorite
+            ones!
+          </p>
+          <div class="img-container">
+            <img class="white-border" src="/images/Coverphoto Kian.jpg" alt="">
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="section-heading">
+          <h3>Projects</h3>
+        </div>
+
+        <div class="project flex-column from-left slide-in">
+          <div class="project-image gold-border">
+            <div class="cover-image">
+              <img src="/images/weatherappcover.png" alt="">
+            </div>
+            <div class="hover-links">
+              <div class="hover-links-links">
+                <a href="https://github.com/kiangopez/weather-app" target="_blank">Github</a>
+                <a href="https://kiangopez.github.io/weather-app/" target="_blank">View live</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info flex-column">
+            <div class="project-title">
+              <span>Weather App</span>
+            </div>
+            <p>
+              A web app that uses api to check what <br>
+              is your current weather in your location.
+            </p>
+            <ul class="project-skills">
+              <li class="gold-border">HTML5</li>
+              <li class="gold-border">CSS</li>
+              <li class="gold-border">JavaScript</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project flex-column from-right slide-in">
+          <div class="project-image gold-border">
+            <div class="cover-image">
+              <img src="/images/todolistcover.png" alt="">
+            </div>
+            <div class="hover-links">
+              <div class="hover-links-links">
+                <a href="https://github.com/kiangopez/todo-list" target="_blank">Github</a>
+                <a href="https://kiangopez.github.io/todo-list/" target="_blank">View live</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info flex-column">
+            <div class="project-title">
+              <span>Todo List</span>
+            </div>
+            <p>
+              A web app that uses api to check what <br>
+              is your current weather in your location.
+            </p>
+            <ul class="project-skills">
+              <li class="gold-border">HTML5</li>
+              <li class="gold-border">CSS</li>
+              <li class="gold-border">JavaScript</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project flex-column from-left slide-in">
+          <div class="project-image gold-border">
+            <div class="cover-image">
+              <img src="/images/lmscover.png" alt="">
+            </div>
+            <div class="hover-links">
+              <div class="hover-links-links">
+                <a href="#contact">In Progess <small>(contact me)</small></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info flex-column">
+            <div class="project-title">
+              <span>Capstone LMS</span>
+            </div>
+            <p>
+              A web app that uses api to check what <br>
+              is your current weather in your location.
+            </p>
+            <ul class="project-skills">
+              <li class="gold-border">PHP</li>
+              <li class="gold-border">CSS</li>
+              <li class="gold-border">JavaScript</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="skills ">
+        <div class="section-heading">
+          <h3>Skills</h3>
+        </div>
+        <div class="skills-icon fade-in">
+          <svg width="60" height="60" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M39.1204 52.5255L39.1203 52.5256L39.1284 52.5346C39.8605 53.3481 40.1036 54.9338 39.6589 57.2561L39.6587 57.2574C39.1731 59.8311 38.2675 61.4006 36.9478 62.4018L36.9478 62.4017L36.9411 62.4069C35.6695 63.4061 33.6531 63.9501 30.8 63.9501H27.0551L29.5131 51.1501H34.05C35.3733 51.1501 36.4615 51.2731 37.3148 51.5127C38.1693 51.7527 38.7558 52.1002 39.1204 52.5255ZM16.0592 78.3046L15.9434 78.9001H16.55H23.75H24.1622L24.2408 78.4955L25.8622 70.1501H31.6C34.3341 70.1501 36.5877 69.8466 38.3999 69.2771L38.4 69.2773L38.4122 69.2731C40.229 68.6502 41.8891 67.6637 43.3893 66.2673C44.6257 65.1337 45.6086 63.8932 46.3851 62.4965C47.162 61.1488 47.7318 59.5958 47.9922 57.939C48.8071 53.9547 48.2637 50.7263 46.2247 48.419L46.2242 48.4184C44.1434 46.071 40.9783 45.0001 36.75 45.0001H22.95H22.5379L22.4592 45.4046L16.0592 78.3046ZM52.8 36.2501H52.3879L52.3092 36.6546L45.9092 69.5546L45.7934 70.1501H46.4H53.5H53.9114L53.9906 69.7464L57.6114 51.3001H62.9C63.7763 51.3001 64.4816 51.3735 65.0213 51.5099C65.5663 51.6476 65.8984 51.8383 66.0814 52.038C66.2604 52.2332 66.3969 52.5426 66.4463 53.026C66.4958 53.5098 66.4539 54.1321 66.309 54.9058C66.3088 54.9065 66.3087 54.9072 66.3086 54.908L63.4592 69.5546L63.3434 70.1501H63.95H71.2H71.6131L71.691 69.7445L74.6394 54.4027C74.6396 54.4013 74.6399 54.4 74.6402 54.3986C75.3079 51.2102 74.8183 48.7557 73.1475 47.1406L73.1411 47.1344L73.1345 47.1285C71.4855 45.6444 68.5653 45.0001 64.55 45.0001H58.8133L60.4897 36.8508L60.6133 36.2501H60H52.8ZM95.0704 52.5255L95.0703 52.5256L95.0784 52.5346C95.8105 53.3481 96.0536 54.9338 95.6089 57.2561L95.6087 57.2574C95.1234 59.8291 94.218 61.4021 92.9446 62.4042C91.619 63.4082 89.5975 63.9501 86.75 63.9501H83.0987L85.4176 51.1501H90C92.737 51.1501 94.3268 51.658 95.0704 52.5255ZM72.0093 78.3039L71.8925 78.9001H72.5H79.7H80.1122L80.1908 78.4955L81.8122 70.1501H87.5C90.2825 70.1501 92.5865 69.847 94.3999 69.2771L94.4 69.2773L94.4122 69.2731C96.2384 68.6469 97.7954 67.657 99.3345 66.2718L99.3379 66.2687C100.566 65.1433 101.605 63.9014 102.339 62.4902C103.116 61.141 103.682 59.591 103.991 57.9431C104.757 53.9619 104.216 50.7341 102.181 48.4261C100.242 46.062 96.9098 45.0001 92.7 45.0001H78.95H78.5385L78.4593 45.4039L72.0093 78.3039ZM60 89.9001C43.4866 89.9001 28.5673 86.5117 17.7947 81.0541C6.99427 75.5823 0.5 68.1123 0.5 60.0001C0.5 51.8879 6.99427 44.4179 17.7947 38.9461C28.5673 33.4885 43.4866 30.1001 60 30.1001C76.5134 30.1001 91.4327 33.4885 102.205 38.9461C113.006 44.4179 119.5 51.8879 119.5 60.0001C119.5 68.1123 113.006 75.5823 102.205 81.0541C91.4327 86.5117 76.5134 89.9001 60 89.9001Z" fill="white" stroke="white"/>
+          </svg>
+          <svg width="60" height="60" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M60.0001 87.8L80.3501 82.15L83.1001 51.65H46.9001L46.0001 41.5H84.0001L85.0001 31.55H35.0001L37.8001 61.6H72.2501L71.1001 74.5L60.0001 77.5L48.9001 74.5L48.2001 66.2H38.2001L39.6501 82.15L60.0001 87.8ZM20.3501 15H99.6501L92.5001 96L60.0001 105L27.5001 96L20.3501 15Z" fill="white"/>
+          </svg>
+          <svg width="60" height="60" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25 15L21.75 31.7H89.7001L87.5001 42.5H19.6L16.3 59.15H84.2501L80.4501 78.2L53.05 87.25L29.3 78.2L30.9501 70H14.25L10.3 90L49.55 105L94.8 90L100.8 59.85L102 53.8L109.7 15H25Z" fill="white"/>
+          </svg>
+          <svg width="60" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15 15H105V105H15V15ZM38.65 90.2C40.65 94.45 44.6 97.95 51.35 97.95C58.85 97.95 64 93.95 64 85.2V56.3H55.5V85C55.5 89.3 53.75 90.4 51 90.4C48.1 90.4 46.9 88.4 45.55 86.05L38.65 90.2ZM68.55 89.3C71.05 94.2 76.1 97.95 84 97.95C92 97.95 98 93.8 98 86.15C98 79.1 93.95 75.95 86.75 72.85L84.65 71.95C81 70.4 79.45 69.35 79.45 66.85C79.45 64.8 81 63.2 83.5 63.2C85.9 63.2 87.5 64.25 88.95 66.85L95.5 62.5C92.75 57.7 88.85 55.85 83.5 55.85C75.95 55.85 71.1 60.65 71.1 67C71.1 73.9 75.15 77.15 81.25 79.75L83.35 80.65C87.25 82.35 89.55 83.4 89.55 86.3C89.55 88.7 87.3 90.45 83.8 90.45C79.65 90.45 77.25 88.3 75.45 85.3L68.55 89.3Z" fill="white"/>
+          </svg>
+          <svg width="60" height="60" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M60 10C53.4339 10 46.9321 11.2933 40.8658 13.806C34.7995 16.3188 29.2876 20.0017 24.6447 24.6447C15.2678 34.0215 10 46.7392 10 60C10 82.1 24.35 100.85 44.2 107.5C46.7 107.9 47.5 106.35 47.5 105C47.5 103.85 47.5 100.7 47.5 96.55C33.65 99.55 30.7 89.85 30.7 89.85C28.4 84.05 25.15 82.5 25.15 82.5C20.6 79.4 25.5 79.5 25.5 79.5C30.5 79.85 33.15 84.65 33.15 84.65C37.5 92.25 44.85 90 47.7 88.8C48.15 85.55 49.45 83.35 50.85 82.1C39.75 80.85 28.1 76.55 28.1 57.5C28.1 51.95 30 47.5 33.25 43.95C32.75 42.7 31 37.5 33.75 30.75C33.75 30.75 37.95 29.4 47.5 35.85C51.45 34.75 55.75 34.2 60 34.2C64.25 34.2 68.55 34.75 72.5 35.85C82.05 29.4 86.25 30.75 86.25 30.75C89 37.5 87.25 42.7 86.75 43.95C90 47.5 91.9 51.95 91.9 57.5C91.9 76.6 80.2 80.8 69.05 82.05C70.85 83.6 72.5 86.65 72.5 91.3C72.5 98 72.5 103.4 72.5 105C72.5 106.35 73.3 107.95 75.85 107.5C95.7 100.8 110 82.1 110 60C110 53.4339 108.707 46.9321 106.194 40.8658C103.681 34.7995 99.9983 29.2876 95.3553 24.6447C90.7124 20.0017 85.2005 16.3188 79.1342 13.806C73.0679 11.2933 66.5661 10 60 10V10Z" fill="white"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="contact flex-column" id="contact">
+        <div class="section-heading">
+          <h3>Contact</h3>
+        </div>
+        <p class="contact-para">
+          If you have any questions or maybe just dropping me a 
+          recommendation about podcasts, feel free to reach me out in any 
+          of my socials!
+        </p>
+        <div class="links flex-column">
+          <a class="flex-column" href="https://www.facebook.com/kiangopz/" target="_blank">
+            <ion-icon name="logo-facebook"></ion-icon>
+            Facebook
+          </a>
+          <a class="flex-column" href="https://www.instagram.com/kiangopz/" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+            Instagram
+          </a>
+          <a class="flex-column" href="https://www.linkedin.com/in/kian-gopez-23a759247/" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+            LinkedIn
+          </a>
+        </div>
+
+        <div class="additional-contact">
+          <p>
+            <ion-icon name="call-outline"></ion-icon>
+            0927 119 7079
+          </p>
+          <p>
+            <ion-icon name="mail-outline"></ion-icon>
+            kianbgopez@gmail.com
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>Developed and designed by Kian Gopez</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
